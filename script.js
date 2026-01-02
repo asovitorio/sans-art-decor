@@ -1,5 +1,5 @@
 // ===== NÚMERO DO WHATSAPP =====
-const WHATSAPP_NUMBER = '948804983'; // Altere para o número real
+const WHATSAPP_NUMBER = '5511948804983'; // Altere para o número real
 
 // ===== HEADER SCROLL EFFECT =====
 const header = document.querySelector('.header');
@@ -84,7 +84,7 @@ function generateWhatsAppLink(productName, price) {
     `💰 ${price}\n\n` +
     `Gostaria de mais informações!`
   );
-  return `https://api.whatsapp.com/send?phone=11${WHATSAPP_NUMBER}&text=${message}`;
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
 }
 
 // ===== PRODUCTS DATA =====
@@ -156,8 +156,8 @@ function setupContactButton() {
   const message = encodeURIComponent(
     `Olá! Vim pelo site SANS ART DECOR e gostaria de saber mais sobre os produtos.`
   );
-  // contactBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
-  contactBtn.href = `https://api.whatsapp.com/send?phone=11${WHATSAPP_NUMBER}&text=${message}`;
+  contactBtn.href = `https://wa.me/5511948804983?text=${message}`;
+  // contactBtn.href = `https://api.whatsapp.com/send?phone=551194880&text=${message}`;
 }
 
 // ===== INIT =====
