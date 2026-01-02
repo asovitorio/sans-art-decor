@@ -156,7 +156,8 @@ function setupContactButton() {
   const message = encodeURIComponent(
     `Olá! Vim pelo site SANS ART DECOR e gostaria de saber mais sobre os produtos.`
   );
-  contactBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+  // contactBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+  contactBtn.href = `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${message}`;
 }
 
 // ===== INIT =====
