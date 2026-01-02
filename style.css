@@ -356,7 +356,7 @@ body {
 
 /* ===== SECTION BASE ===== */
 .section {
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -650,7 +650,7 @@ body {
   }
 
   .section {
-    padding: 4rem 1.5rem;
+    padding: 8rem 1.5rem;
   }
 
   .section-title h2 {

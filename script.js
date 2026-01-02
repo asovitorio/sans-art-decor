@@ -1,11 +1,11 @@
 // ===== NÚMERO DO WHATSAPP =====
-const WHATSAPP_NUMBER = '5511999999999'; // Altere para o número real
+const WHATSAPP_NUMBER = '11948804983'; // Altere para o número real
 
 // ===== HEADER SCROLL EFFECT =====
 const header = document.querySelector('.header');
 
   const logoHeader = document.querySelector('a[href="#home"] img');
-  
+   logoHeader.style.display  = 'none';
 window.addEventListener('scroll', () => {
 
   if (window.scrollY > 50) {
@@ -115,7 +115,7 @@ const products = [
     name: 'Difusor Vanilla & Sândalo',
     description: 'Combinação sofisticada de baunilha com notas de sândalo',
     price: 'R$ 149,90',
-    image: 'placeholder.svg'
+    image: './assets/products/kit-lavabo-rosa.png'
   }
 ];
 
