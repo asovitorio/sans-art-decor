@@ -84,7 +84,7 @@ function generateWhatsAppLink(productName, price) {
     `💰 ${price}\n\n` +
     `Gostaria de mais informações!`
   );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
+  return `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${message}`;
 }
 
 // ===== PRODUCTS DATA =====
